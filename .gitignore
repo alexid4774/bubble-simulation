@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# CMake build files
+/build/
+cmake-build-*/
+
+# Generated Gmsh meshes
+/mesh/*.msh
+
+# OpenFOAM generated mesh
+/case/constant/polyMesh/
+
+# OpenFOAM time directories
+/case/[0-9]*/
+!/case/0/
+
+# OpenFOAM logs and markers
+log.*
+*.log
+*.foam
+
+# Temporary files
+*.bak
+*.before*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
